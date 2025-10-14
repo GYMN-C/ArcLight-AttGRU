@@ -90,7 +90,7 @@ In addition to the **ArcLight-AttGRU**, this repository also includes **Motifs**
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/Time-Series-Analysis-Projects.git
+   git clone https://github.com/GYMN-C/Time-Series-Analysis-Projects.git
    ```
 
 2. **Install dependencies**:
@@ -114,22 +114,6 @@ This will:
 * Perform KMeans clustering to identify patterns.
 * Save the processed data for future use.
 
----
-
-## Citation
-
-If you use this framework, please cite the following paper:
-
-```
-@article{yourpaper2025,
-  title={ArcLight-AttGRU: An Ultra-Lightweight Attention-Gated GRU Framework for Low-Frequency Arc Fault Detection},
-  author={Your Name and Co-authors},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  year={2025},
-  volume={xx},
-  pages={xx-xx},
-}
-```
 
 ---
 
