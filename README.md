@@ -1,6 +1,5 @@
 # ArcLight-AttGRU: Ultra-Lightweight Attention-Gated GRU for Low-Frequency Arc Fault Detection
 
-This repository contains the code for **ArcLight-AttGRU**, an ultra-lightweight attention-gated GRU framework for low-frequency arc fault detection, as described in the paper **"ArcLight-AttGRU: An Ultra-Lightweight Attention-Gated GRU Framework for Low-Frequency Arc Fault Detection"**, to be published in *IEEE Transactions on Instrumentation and Measurement (TIM)*.
 
 ArcLight-AttGRU leverages **Attention Mechanisms** and **Gated Recurrent Units (GRU)** to efficiently detect arc faults in electrical systems, with minimal computational overhead, making it suitable for embedded real-time applications.
 
