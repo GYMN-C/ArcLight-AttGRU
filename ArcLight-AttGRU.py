@@ -170,10 +170,10 @@ def main():
 
     # Load data
     x_train = pd.read_csv("lstm/x_train_v2.csv").iloc[:, 1:51].values.reshape(-1, 50, 1)
-    x_val = pd.read_csv("lstm/x_vaild.csv").iloc[:, 1:51].values.reshape(-1, 50, 1)
+    x_val = pd.read_csv("lstm/x_valid.csv").iloc[:, 1:51].values.reshape(-1, 50, 1)
     x_test = pd.read_csv("lstm/x_test_v2.csv").iloc[:, 1:51].values.reshape(-1, 50, 1)
     y_train = pd.read_csv("lstm/y_train_v2.csv").iloc[:, 1:].values
-    y_val = pd.read_csv("lstm/y_vaild.csv").iloc[:, 1:].values
+    y_val = pd.read_csv("lstm/y_valid.csv").iloc[:, 1:].values
     y_test = pd.read_csv("lstm/y_test_v2.csv").iloc[:, 1:].values
 
     # Build and prune the model
@@ -185,7 +185,7 @@ def main():
 
     # Train the model
     cb = [sparsity.UpdatePruningStep(), SparsityCallback(), EpochLogger((x_val, y_val), log_fp)]
-    pruned.fit(x_train, y_train, epochs=1000, batch_size=32,
+    pruned.fit(x_train, y_train, epochs=500, batch_size=32,
                validation_data=(x_val, y_val), callbacks=cb,
                verbose=2, shuffle=False)
     log_fp.close()
