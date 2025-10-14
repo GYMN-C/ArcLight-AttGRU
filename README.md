@@ -90,7 +90,7 @@ In addition to the **ArcLight-AttGRU**, this repository also includes **Motifs**
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/GYMN-C/ArcLight-AttGRU.git
+   git clone https://github.com/yourusername/Time-Series-Analysis-Projects.git
    ```
 
 2. **Install dependencies**:
@@ -114,12 +114,18 @@ This will:
 * Perform KMeans clustering to identify patterns.
 * Save the processed data for future use.
 
-Dataset Information
+---
 
-The datasets used for training and evaluating the ArcLight-AttGRU model were obtained from IEEE DataPort (DOI: 10.21227/fwed-0w934
-).
+## Dataset Information
+
+The datasets used for training and evaluating the ArcLight-AttGRU model were obtained from **IEEE DataPort** (DOI: [10.21227/fwed-0w934](https://ieeexplore.ieee.org/document/9274571)).
 
 Please cite the dataset if you use it in your research:
+
+```
+IEEE DataPort. (2020). IEEE DataPort (DOI: 10.21227/fwed-0w934). Retrieved from [https://ieeexplore.ieee.org/document/9274571](https://ieeexplore.ieee.org/document/9274571)
+```
+
 ---
 
 ## License
@@ -133,4 +139,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 We would like to thank the original authors of the **GRU** and **Attention Mechanism** models, whose work laid the foundation for this project. Additionally, we appreciate the support of the open-source community for providing the tools necessary to bring this project to life.
 
 ---
+
+## Further Information
+
+For any questions or issues, feel free to contact us at [[gyn13944041446@outlook.com](mailto:gyn13944041446@outlook.com)]. We welcome contributions from the community to improve this framework.
+
+```
 
