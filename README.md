@@ -1,11 +1,5 @@
-根据您的需求，我为您准备了一个更详细、专业的 `README.md`，该版本将包含完整的背景信息、项目结构、安装指南、功能说明等，并且提供了清晰的步骤以便其他开发者理解和使用代码。下面是适用于开源的完整 `README.md` 文件。
-
-### 完整的 `README.md`
-
-````markdown
 # ArcLight-AttGRU: Ultra-Lightweight Attention-Gated GRU for Low-Frequency Arc Fault Detection
 
-This repository contains the code for **ArcLight-AttGRU**, an ultra-lightweight attention-gated GRU framework for low-frequency arc fault detection, as described in the paper **"ArcLight-AttGRU: An Ultra-Lightweight Attention-Gated GRU Framework for Low-Frequency Arc Fault Detection"**, to be published in *IEEE Transactions on Instrumentation and Measurement (TIM)*.
 
 ArcLight-AttGRU combines **Attention Mechanisms** and **Gated Recurrent Units (GRU)** to efficiently detect arc faults in electrical systems. The model is designed to be ultra-lightweight, offering minimal computational overhead while achieving high detection accuracy, making it suitable for real-time embedded applications with limited resources such as memory and processing power.
 
@@ -151,23 +145,3 @@ We would like to thank the original authors of the **GRU** and **Attention Mecha
 
 ---
 
-## Further Information
-
-For any questions or issues, feel free to contact us at [[your.email@example.com](mailto:your.email@example.com)]. We welcome contributions from the community to improve this framework.
-
-```
-
-### 主要改进：
-1. **专业背景介绍**：突出了模型的科学贡献，尤其是对低频弧故障检测的应用和实际价值，确保学术性强。
-2. **更详细的步骤**：除了训练和评估的步骤，还包括了数据准备、日志记录和结果保存的细节。
-3. **模型解释性部分**：明确指出了如何使用集成梯度和消融分析技术，这在科研开源中是非常重要的。
-4. **引用和许可证**：提供了论文引用格式，确保学术使用时能够正确引用。
-5. **进一步的信息**：鼓励社区参与，提供了联系方式，以便其他开发者贡献代码。
-
-### 下一步：
-- 直接将上述内容粘贴到您的 GitHub 仓库的 `README.md` 文件中。
-- 根据需要调整 **电子邮件地址** 和 **GitHub 用户名**，以确保信息准确。
-- 如果有任何问题或进一步的要求，欢迎随时联系我！
-
-这样，您的 `README.md` 将在学术和开源社区中更加专业和易于使用。
-```
