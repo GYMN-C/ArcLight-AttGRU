@@ -114,7 +114,12 @@ This will:
 * Perform KMeans clustering to identify patterns.
 * Save the processed data for future use.
 
+Dataset Information
 
+The datasets used for training and evaluating the ArcLight-AttGRU model were obtained from IEEE DataPort (DOI: 10.21227/fwed-0w934
+).
+
+Please cite the dataset if you use it in your research:
 ---
 
 ## License
