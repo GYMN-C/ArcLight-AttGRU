@@ -144,5 +144,3 @@ We would like to thank the original authors of the **GRU** and **Attention Mecha
 
 For any questions or issues, feel free to contact us at [[gyn13944041446@outlook.com](mailto:gyn13944041446@outlook.com)]. We welcome contributions from the community to improve this framework.
 
-```
-
