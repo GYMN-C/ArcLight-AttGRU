@@ -1,32 +1,31 @@
 # ArcLight-AttGRU: Ultra-Lightweight Attention-Gated GRU for Low-Frequency Arc Fault Detection
 
-
 ArcLight-AttGRU combines **Attention Mechanisms** and **Gated Recurrent Units (GRU)** to efficiently detect arc faults in electrical systems. The model is designed to be ultra-lightweight, offering minimal computational overhead while achieving high detection accuracy, making it suitable for real-time embedded applications with limited resources such as memory and processing power.
 
 ## Key Contributions
 
-- **Attention-Gated GRU**: Combines the attention mechanism and GRU to effectively detect low-frequency arc faults while maintaining efficiency.
-- **Model Pruning**: Optimizes the model by pruning unnecessary parameters, reducing memory usage and improving inference time.
-- **Interpretability**: Implements **Integrated Gradients** and **Ablation** techniques to provide interpretability for model decisions.
-- **Real-Time Fault Detection**: Designed for real-time embedded systems, ensuring low latency and high reliability.
+* **Attention-Gated GRU**: Combines the attention mechanism and GRU to effectively detect low-frequency arc faults while maintaining efficiency.
+* **Model Pruning**: Optimizes the model by pruning unnecessary parameters, reducing memory usage and improving inference time.
+* **Interpretability**: Implements **Integrated Gradients** and **Ablation** techniques to provide interpretability for model decisions.
+* **Real-Time Fault Detection**: Designed for real-time embedded systems, ensuring low latency and high reliability.
 
 ## Project Structure
 
-- `ArcLight-AttGRU.py`: The main script implementing model training, evaluation, pruning, and interpretability functions.
-- `lstm/`: Directory containing training, validation, and test datasets in CSV format.
-- `ablation_plots/`: Directory where the ablation analysis plots are saved.
+* `ArcLight-AttGRU.py`: The main script implementing model training, evaluation, pruning, and interpretability functions.
+* `lstm/`: Directory containing training, validation, and test datasets in CSV format.
+* `ablation_plots/`: Directory where the ablation analysis plots are saved.
 
 ## Requirements
 
 To run this project, you need the following dependencies:
 
-- **TensorFlow** >= 2.x: For building and training the neural network.
-- **NumPy**: For numerical computing and data handling.
-- **Pandas**: For data manipulation and CSV file processing.
-- **Scikit-learn**: For evaluation metrics and clustering.
-- **Matplotlib**: For plotting graphs, particularly for ablation analysis.
-- **tensorflow_model_optimization**: For model pruning and optimization.
-- **Joblib**: For parallel processing and handling large datasets.
+* **TensorFlow** >= 2.x: For building and training the neural network.
+* **NumPy**: For numerical computing and data handling.
+* **Pandas**: For data manipulation and CSV file processing.
+* **Scikit-learn**: For evaluation metrics and clustering.
+* **Matplotlib**: For plotting graphs, particularly for ablation analysis.
+* **tensorflow_model_optimization**: For model pruning and optimization.
+* **Joblib**: For parallel processing and handling large datasets.
 
 ### Install Dependencies
 
@@ -34,7 +33,7 @@ Install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
 ## How to Run
 
@@ -118,13 +117,22 @@ This will:
 
 ## Dataset Information
 
-The datasets used for training and evaluating the ArcLight-AttGRU model were obtained from **IEEE DataPort** (DOI: [10.21227/fwed-0w934](https://ieeexplore.ieee.org/document/9274571)).
+The datasets used for training and evaluating the ArcLight-AttGRU model are derived from a proprietary company project and have been sampled for research purposes. Due to confidentiality, only a small random subset of the complete dataset is provided. This subset is intended to represent the data distribution but does not include the full range of data from the original project.
+
+Please note:
+
+* **Data Availability**: The provided dataset is a limited, random sample and not exhaustive.
+* **Usage**: This dataset is provided for educational and research purposes only. Any commercial use or redistribution of the full dataset requires prior authorization.
+
+The dataset used in this project is from **IEEE DataPort** (DOI: [10.21227/fwed-0w934]).
 
 Please cite the dataset if you use it in your research:
 
 ```
-IEEE DataPort. (2020). IEEE DataPort (DOI: 10.21227/fwed-0w934). Retrieved from [https://ieeexplore.ieee.org/document/9274571](https://ieeexplore.ieee.org/document/9274571)
+IEEE DataPort. (2020). IEEE DataPort (DOI: 10.21227/fwed-0w934). 
 ```
+
+The sample data (`data.xlsx`) can be found in the repository, and it is essential to use it within the context of this project for research purposes only.
 
 ---
 
@@ -143,4 +151,3 @@ We would like to thank the original authors of the **GRU** and **Attention Mecha
 ## Further Information
 
 For any questions or issues, feel free to contact us at [[gyn13944041446@outlook.com](mailto:gyn13944041446@outlook.com)]. We welcome contributions from the community to improve this framework.
-
