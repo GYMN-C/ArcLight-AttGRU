@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/ArcLight-AttGRU.git
+git clone https://github.com/GYMN-C/ArcLight-AttGRU.git
 ```
 
 ### Prepare the Data
