@@ -4,6 +4,8 @@ Official implementation for **ArcLight-AttGRU: An Ultralightweight Attention-Gat
 ## Overview
 ArcLight-AttGRU is a dedicated ultralightweight deep learning model for **low-frequency (60Hz) series arc fault (SAF) detection** in residential and industrial power systems. The model addresses the key pain points of high hardware cost, poor scalability and low deployability of traditional arc fault detection methods, and achieves high-precision detection based on standard power grid sampling rate signals, with excellent performance in parameter efficiency, inference speed and embedded deployment compatibility.
 
+Due to confidentiality reasons, only part of the dataset can be made public.
+
 ## Core Model Design
 ArcLight-AttGRU integrates lightweight convolution, recurrent neural network and attention mechanism, and combines structured pruning strategy to balance detection accuracy and model lightweight:
 - **SeparableConv1D Block**: Two stacked depthwise separable convolution layers with batch normalization, efficiently extract local disturbance features of low-frequency current time series at low computational cost
